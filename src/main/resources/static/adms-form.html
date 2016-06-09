@@ -1,0 +1,17 @@
+<form>
+  <div class="form-group">
+    <label for="inputAdm">Adm</label>
+    <input type="text" class="form-control" id="inputAdm" placeholder="Nome" ng-model="adm.nome">
+  </div>
+  <div class="form-group">
+    <label for="inputSenha"></label>
+    <textarea class="form-control" id="inputSenha" placeholder="Senha" ng-model="adm.senha"></textarea>
+  </div>
+   <div class="form-group">
+    <label for="inputEmail"></label>
+    <textarea class="form-control" id="inputEmail" placeholder="Email" ng-model="adm.email"></textarea>
+  </div>
+ 
+  
+  <button class="btn btn-primary" ng-click="save()">Salvar</button>
+</form>

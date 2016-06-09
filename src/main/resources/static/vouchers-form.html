@@ -1,0 +1,11 @@
+<form>
+  <div class="form-group">
+    <label for="inputNome">Nome</label>
+    <input type="text" class="form-control" id="inputNome" placeholder="Nome" ng-model="voucher.nome">
+  </div>
+  <div class="form-group">
+    <label for="inputvalor">Valor</label>
+    <textarea class="form-control" id="inputValor" placeholder="Valor" ng-model="voucher.valor"></textarea>
+  </div>
+  <button class="btn btn-primary" ng-click="save()">Salvar</button>
+</form>
